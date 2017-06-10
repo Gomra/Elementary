@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+    <PreferenceCategory
+        android:key="pref_key_pairing_settings"
+        android:title="@string/device_pairing">
+
+        <Preference android:title="@string/paired_with" >
+        </Preference>
+
+        <Preference android:title="@string/pair_with_another_device" >
+            <intent android:action="android.intent.action.VIEW"/>
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_key_notification_settings"
+        android:title="@string/notifications">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_send_notifications"
+            android:title="@string/send_notifications"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_receive_notifications"
+            android:title="@string/receive_notifications"/>
+
+        <Preference android:title="@string/filter_send_notifications" >
+            <intent android:action="android.intent.action.VIEW"/>
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_key_sharing_settings"
+        android:title="@string/sharing">
+
+        <Preference android:title="@string/scan_qr_code" >
+            <intent android:action="android.intent.action.VIEW"/>
+        </Preference>
+
+        <Preference android:title="@string/start_ftp_server" >
+            <intent android:action="android.intent.action.VIEW"/>
+        </Preference>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_sharepad_visibility"
+            android:title="@string/sharepad_visibility"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_key_telephony_settings"
+        android:title="@string/telephony">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_allow_sms"
+            android:title="@string/allow_sms"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_allow_calls"
+            android:title="@string/allow_calls"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_key_contacts_settings"
+        android:title="@string/contacts">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_sync_contacts"
+            android:title="@string/sync_contacts"/>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

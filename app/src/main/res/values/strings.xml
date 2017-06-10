@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">Elementary</string>
+
+    <string name="device_pairing">Device Pairing</string>
+    <string name="paired_with">Paired with</string>
+    <string name="pair_with_another_device">Pair with another device</string>
+
+    <string name="notifications">Notifications</string>
+    <string name="send_notifications">Send notifications</string>
+    <string name="receive_notifications">Receive notifications</string>
+    <string name="filter_send_notifications">Filter send notifications</string>
+
+    <string name="sharing">Sharing</string>
+    <string name="scan_qr_code">Scan QR code</string>
+    <string name="start_ftp_server">Start FTP server</string>
+    <string name="sharepad_visibility">Sharepad visibility</string>
+
+    <string name="telephony">Telephony</string>
+    <string name="allow_sms">Allow SMS</string>
+    <string name="allow_calls">Allow calls</string>
+
+    <string name="contacts">Contacts</string>
+    <string name="sync_contacts">Sync contacts</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
